@@ -1,0 +1,44 @@
+/* -----------------------------------------
+			    BELOW 1200px
+-------------------------------------------- */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+/* -----------------------------------------
+			    BELOW 1100px
+-------------------------------------------- */
+@media (max-width: 68.75em) {
+  html {
+    font-size: 45%;
+  }
+  main {
+    gap: 7rem;
+  }
+}
+/* -----------------------------------------
+			    BELOW 900px
+-------------------------------------------- */
+@media (max-width: 56.25em) {
+  main {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .player-section {
+    display: flex;
+    flex-direction: row;
+  }
+  .player-1-box,
+  .player-0-box {
+    width: 100%;
+  }
+  .game-controls-box {
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    min-width: 70vw;
+    margin: 0 auto;
+  }
+}
